@@ -5,7 +5,8 @@ const ruleList = document.getElementById('ruleList');
 
 // Default dictionary
 const defaultDictionary = {
-  'ei(er)?' : 'Mehrzweckei',
+  'ei' : 'Mehrzweckei',
+  'eier' : 'Mehrzweckeier',    
 };
 
 // Load and display rules
