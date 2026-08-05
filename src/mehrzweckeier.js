@@ -43,7 +43,8 @@ function replaceTextInNode(node) {
 chrome.storage.local.get({ 
     isEnabled: true, 
     customDictionary: {
-        'ei(er)?' : 'Mehrzweckei',
+        'ei' : 'Mehrzweckei',
+        'eier' : 'Mehrzweckeier',
     }
 }, (data) => {
     isEnabled = data.isEnabled;
